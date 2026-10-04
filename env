@@ -1,0 +1,15 @@
+# Cloud Racing Server Configuration
+PORT=3000
+NODE_ENV=development
+
+# Socket.io
+SOCKET_IO_CORS_ORIGIN=*
+
+# Game Settings
+MAX_PLAYERS=20
+AI_CARS=3
+MAX_SPEED=200
+FRICTION=0.96
+
+# Server
+HOST=0.0.0.0
